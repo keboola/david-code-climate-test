@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MyComponent\Tests\src;
 
 use MyComponent\SumComponent;

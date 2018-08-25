@@ -5,3 +5,8 @@ services:
     volumes:
       - ./:/code
       - ./data:/data
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile-tests
+    command: ./code-coverage.sh

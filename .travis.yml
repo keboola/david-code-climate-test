@@ -8,6 +8,8 @@ services:
 before_script:
   - export APP_IMAGE=keboola-component
   - docker -v
+  - docker-compose build tests
+  - docker-compose run --rm -e CC_TEST_REPORTER_ID tests
   - docker build -t $APP_IMAGE .
   - docker run $APP_IMAGE composer ci
 

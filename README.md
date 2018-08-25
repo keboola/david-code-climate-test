@@ -1,6 +1,6 @@
 # my-component
 
-[![Build Status](https://travis-ci.com/keboola/my-component.svg?branch=master)](https://travis-ci.com/keboola/my-component)
+[![Build Status](https://travis-ci.com/keboola/david-code-climate-test.svg?branch=master)](https://travis-ci.com/keboola/my-component)
 
 > Fill in description
 
